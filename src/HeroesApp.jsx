@@ -5,12 +5,10 @@ import { Navbar } from './ui/Navbar'
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <div className="container mt-28 mx-auto px-12 py-4">
-        <AppRouter />
-      </div>
-    </>
+  <div className="container mt-28 mx-auto px-12 py-4">
+      <AppRouter />
+  </div>
+    
   )
 }
 
