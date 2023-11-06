@@ -16,8 +16,8 @@ export const heroes = [
         'characters':'Kal-El'
     },
     {
-        'id':'marvel-barton',
-        'superhero': 'Ojo de alcon',
+        'id':'marvel-hawkeye',
+        'superhero': 'Hawkeye',
         'publisher': 'Marvel Comics',
         'alter_ego':'Clinton Francis Barton',
         'first_appearance': 'Tales of Suspense #57',

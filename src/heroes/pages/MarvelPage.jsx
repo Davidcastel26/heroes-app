@@ -1,6 +1,14 @@
+import { 
+  Divider, 
+  Text } from "@chakra-ui/react"
+import { HeroList } from "../components"
 
 export const MarvelPage = () => {
-  return (
-    <h1>MarvelPage</h1>
-  )
+return (
+<>
+  <Text fontSize='5xl'>DC Comics</Text>
+  <Divider />
+  <HeroList publisher='Marvel Comics'/>
+</>
+)
 }
