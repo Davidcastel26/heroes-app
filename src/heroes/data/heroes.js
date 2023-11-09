@@ -1,5 +1,13 @@
 export const heroes = [
     {
+        'id': 'dc-flash',
+        'superhero': 'Flash',
+        'publisher': 'DC Comics',
+        'alter_ego': 'Jay Garrick',
+        'first_appearance': 'Flash Point #93',
+        'characters': 'Barry Allen'
+    },
+    {
         'id':'dc-batman',
         'superhero':'Batman',
         'publisher': 'DC Comics',
@@ -62,5 +70,20 @@ export const heroes = [
         'alter_ego': 'Norrin Radd',
         'first_appearance': 'The Fantastic Four #48',
         'characters': 'Norrin Radd'
-    }
+    },{
+        'id': 'dc-green',
+        'superhero': 'Green Lantern',
+        'publisher': 'DC Comics',
+        'alter_ego': 'Alan Scott',
+        'first_appearance': 'All-American Comics #16',
+        'characters': 'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro',
+    },
+    {
+        'id': 'dc-arrow',
+        'superhero': 'Green Arrow',
+        'publisher': 'DC Comics',
+        'alter_ego': 'Oliver Queen',
+        'first_appearance': 'More Fun Comics #73',
+        'characters': 'Oliver'
+    },
 ]

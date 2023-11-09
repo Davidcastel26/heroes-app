@@ -30,8 +30,9 @@ export const HeroCard = ({
 
   return (
     <Card maxW='sm' className="m-5">  
-        <CardBody>
+        <CardBody className='animate__animated animate__fadeIn'>
             <Image
+                
                 src={heroImageUrl}
                 alt={ superhero }
                 borderRadius='lg'
