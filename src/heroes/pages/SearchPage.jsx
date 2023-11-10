@@ -68,6 +68,7 @@ export const SearchPage = () => {
             colorScheme='teal'
             variant='solid'
             leftIcon={< SearchIcon/>}
+            onClick={ onSearchSubmit }
           >
             Search
           </Button>
