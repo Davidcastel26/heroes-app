@@ -7,7 +7,7 @@ export const authReducer = ( state = {}, aciton ) => {
             return {
                 ...state,
                 logged: true,
-                name: aciton.payload
+                user: aciton.payload
             };
         case types.logout:
             return {
