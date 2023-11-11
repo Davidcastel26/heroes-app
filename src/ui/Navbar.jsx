@@ -1,12 +1,17 @@
-import React from "react";
+import { useContext } from "react";
 import ToggleColorMode from "./btnColorMode";
-import { Button } from "@chakra-ui/react";
+import { Badge, Button, Stack } from "@chakra-ui/react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../auth";
 
 export const Navbar = () => {
+
+  const { user, logout } = useContext( AuthContext )
+  // console.log(user)
   const navigate = useNavigate();
 
   const onLogout = () => {
+    logout()
     navigate("/login", {
       replace: true,
     });
@@ -23,6 +28,9 @@ export const Navbar = () => {
           </span>
         </Link>
         <div className="flex md:order-2">
+          <div className="mt-2 mr-2">
+            <Badge variant='solid' colorScheme='green' ml='1'> {user?.name} </Badge>
+          </div>
           <Button onClick={onLogout}>Logout</Button>
           <ToggleColorMode />
           <button
