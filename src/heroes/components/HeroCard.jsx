@@ -26,7 +26,7 @@ export const HeroCard = ({
     characters
 }) => {
 
-    const heroImageUrl = `/public/assets/heroes/${id}.jpg`
+    const heroImageUrl = `/heroes/${id}.jpg`
 
   return (
     <Card maxW='sm' className="m-5">  

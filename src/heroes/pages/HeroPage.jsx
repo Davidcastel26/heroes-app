@@ -62,7 +62,7 @@ export const HeroPage = () => {
             // className="animate__animated animate__lightSpeedInRight"
             // className="animate__animated animate__slideInRight"
             objectFit='cover'
-            src={`/public/assets/heroes/${id}.jpg`} 
+            src={`/heroes/${id}.jpg`} 
             alt={hero.superhero} />
           </Box>
         </div>
